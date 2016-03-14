@@ -161,7 +161,7 @@ class MainWindow(QMainWindow):
 		self.urlbar.setCursorPosition(0)
 
 app = QApplication(sys.argv)
-app.setApplicationName("Rooham Broswer")
+app.setApplicationName("Rooham Browser")
 app.setOrganizationName("Rooham Mosalli")
 app.setOrganizationDomain("Rooham.com")
 
