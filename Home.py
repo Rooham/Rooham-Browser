@@ -90,7 +90,7 @@ class MainWindow(QMainWindow):
 
 	def print_page(self):
 		dlg = QPrintPreviewDialog()
-		dlg.paintRequested.connect(self.browser.print_)
+		dlg.paintRequested.connect(self.tabs.currentWidget().print_)
 		dlg.exec_()
 	def open_file(self):
 		filename, _ = QFileDialog.getOpenFileName(self, "Open file", "" ,
